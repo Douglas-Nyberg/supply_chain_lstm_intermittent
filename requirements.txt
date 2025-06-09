@@ -1,0 +1,30 @@
+# Core numerical libraries
+numpy==1.24.3          # Array operations, pinned for stability
+pandas==2.0.3          # Data manipulation 
+scipy==1.10.1          # Scientific computing functions
+
+# Statistical modeling
+statsmodels==0.14.0    # ARIMA implementation
+statsforecast==1.7.3   # Fast statistical methods (Croston, TSB)
+
+# Machine learning 
+scikit-learn==1.3.0    # ML utilities and preprocessing
+torch==2.0.1           # Deep learning framework for LSTM
+# Note: Install with CUDA support if available:
+# pip install torch==2.0.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+
+# Visualization
+matplotlib==3.7.2      # Basic plotting
+seaborn==0.12.2        # Statistical visualizations
+
+# Time series specific
+sktime==0.24.1         # Time series transformations (might remove this later)
+
+# Development tools
+pytest==7.4.0          # Testing framework
+tqdm==4.65.0           # Progress bars for long-running ops
+pyyaml==6.0.1          # Config file parsing
+
+# Optional but recommended
+# joblib==1.3.2        # Parallel processing (installed with sklearn)
+# numba==0.57.1        # JIT compilation for speed (if needed)

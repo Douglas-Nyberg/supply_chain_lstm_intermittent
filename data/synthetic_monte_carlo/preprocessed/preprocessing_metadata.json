@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-06-08T16:21:35.160762",
+  "source": "synthetic_mc",
+  "config_tag": "synthetic_demand_comparison",
+  "input_data_dir": "/home/douglasnyberg/LSTM/supply_chain/data/synthetic_monte_carlo/m5_format",
+  "raw_item_count_from_input_sales_df": 5,
+  "filtered_item_count_processed": 5,
+  "total_calendar_days_available": 1095,
+  "days_in_train_set": 1067,
+  "days_in_test_set": 28,
+  "categorical_features_in_embedding_info": [
+    "dept_id",
+    "item_id",
+    "month",
+    "year",
+    "week_of_year",
+    "state_id",
+    "quarter",
+    "weekday",
+    "store_id",
+    "cat_id"
+  ]
+}

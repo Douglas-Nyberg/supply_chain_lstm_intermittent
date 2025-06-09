@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Data files (keep structure but not actual data)
+data/raw/*.csv
+data/processed/*.csv
+data/preprocessed/
+\!data/raw/README.md
+\!data/processed/README.md
+
+# Model files
+trained_models/
+*.pkl
+*.pth
+*.pt
+
+# Results and outputs
+results/
+predictions/
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+scratch.txt
+lazy.txt
+even.txt
+
+# CPU/GPU specific outputs
+cpu/
+gpu/
+
+# Hyperopt results
+hyperopt_results/
+
+# Test outputs
+test_output/
+EOF < /dev/null
